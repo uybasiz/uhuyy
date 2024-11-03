@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylebaru.css">
+    <title>spontan uhuyy</title>
+</head>
+<body>
+  <script src="login.js"></script>
+    <nav>
+        <div class="logo"><img src="logo_uybasiz-removebg-preview.png" alt="logo gua"></div>
+        <ul>
+          <li>
+            <a href="home.html">HOME</a>
+          </li>
+          <li>
+            <a href="product.html">PRODUCT</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <li>
+            <a href="about us.html">ABOUT US</a>
+          </li>
+        </ul>
+
+      </nav>
+      <div class="body-login">
+        <div class="container">
+          <form>
+              <h1 align="center">LOGIN</h1>
+              <br><br>
+                  Nama: <input type="text" name="Nama" id="nama" required>
+              <br><br>
+              Password: <input type="password" name="password" id="password" size="9" maxlength="9" required>
+             <i class='bx bxs-lock-alt'></i>
+             <label><input type="checkbox" onclick="hideseek()">show password</label><br><br>
+          </form>
+          <form action="home.html" method="GET" onsubmit="return kirimData()">
+              <button type="submit">Login</button>
+      </form>
+       </div>  
+     </div>
+</html>

@@ -1,0 +1,162 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav img {
+    width: 60px;
+}
+
+nav {
+    background-color: #5e0000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white ;
+}
+
+.body-login {
+    padding: 60px;
+    margin: 0 auto;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(0px);
+    width: 300px; 
+    color: #fffdfd;
+  }
+  
+   h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00ff1e;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #ffffff;
+    font-size: 1em;
+    transition: 0.3s ease;
+  }
+  
+  .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff ;
+    pointer-events: none;
+    transition: 0.3s ease;
+  }
+  
+  .input-box input:focus ~ label,
+  .input-box input:valid ~ label {
+    top: -20px;
+    font-size: 0.8em;
+    color: #d2caca;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3700ffa0;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #174f62;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-image: url('WhatsApp\ Image\ 2024-10-25\ at\ 22.52.39_39d4c7db.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+
+  .PRODUCT {
+    font-size: larger;
+    position: relative;
+  }
+
+  .container {
+    background-color: #ffffff (transparent);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #8493a7; 
+}
+
+
+label {
+    font-size: 16px;
+    color: #4682b4;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    background-color: #ffffff(transparent);
+    padding: 10px;
+    margin-bottom: 15px;
+    color: hsl(0, 11%, 7%);
+    border: 1px solid #b0c4de;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4682b4;
+    outline: none;
+    box-shadow: 0 0 8px rgba(70, 130, 180, 0.5);
+}
